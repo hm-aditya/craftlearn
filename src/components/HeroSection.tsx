@@ -28,7 +28,7 @@ const Hero = () => {
         {/* Right Visual */}
         <div className="relative ">
           <div className="absolute inset-0 w-full rounded-2xl bg-linear-to-tr from-primary/20 to-secondary/20" />
-           <img src="./src/assets/image.png" className="float w-fit rounded-xl" alt="" />
+           <img src={"/public/static/image.png"} className="float w-fit rounded-xl" alt="" />
           {/* Floating Card */}
           <div className="absolute bottom-0 left-40 bg-transparent backdrop-blur rounded-xl shadow-lg px-6 py-2">
             <p className="text-sm font-medium text-neutral-white">

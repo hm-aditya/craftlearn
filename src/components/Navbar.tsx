@@ -5,7 +5,7 @@ function Navbar() {
         {/* Logo / Brand */}
         <div className="flex items-center gap-2">
           <div className="w-8 h-8 rounded-md bg-primary flex items-center justify-center font-bold">
-           <img src='./public/static/logo.svg' className="pt-1" alt=''></img>
+           <img src='/public/static/logo.svg' className="pt-1" alt=''></img>
           </div>
           <span className="font-bold text-3xl tracking-tight">
            <span className="text-[#A05AFF] ">Craft</span><span className="text-[#1BCFB4]">Learn</span>

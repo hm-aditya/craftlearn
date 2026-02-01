@@ -1,3 +1,7 @@
+import tutor from '/static/tutor.svg'
+import project from '/static/project.svg'
+import calm from '/static/calm.svg'
+import roadmap from '/static/roadmap.svg'
 const features = [
   {
     title: "Mentor-Led Learning",
@@ -5,7 +9,7 @@ const features = [
       "Learn from experienced instructors who guide you with clarity, patience, and real-world context.",
     featurestyle: "bg-blue-100 ",
     shape: "bg-[#A05AFF]",
-    icon:'/public/static/tutor.svg'
+    icon:tutor
   
   },
   {
@@ -14,7 +18,7 @@ const features = [
       "Every concept is reinforced by hands-on projects so you learn by building, not just watching.",
     featurestyle: "bg-purple-100 ",
     shape: "bg-violet-600",
-    icon:'/public/static/project.svg'
+    icon:project
   },
 
   {
@@ -23,7 +27,7 @@ const features = [
       "Carefully designed roadmaps help you progress step by step without confusion or overwhelm.",
     featurestyle: "bg-pink-100 ",
     shape: "bg-[#A05AFF]",
-    icon:'/public/static/roadmap.svg'
+    icon:roadmap
   },
   {
     title: "Calm Learning Environment",
@@ -31,7 +35,7 @@ const features = [
       "A distraction-free interface designed to help you focus deeply and learn effectively.",
     featurestyle: "bg-green-100 ",
     shape: "bg-[#1BCFB4]",
-    icon:'/public/static/calm.svg'
+    icon:calm
   },
 ];
 
